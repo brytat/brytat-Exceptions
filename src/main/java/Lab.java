@@ -20,7 +20,7 @@ public class Lab {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
-    public void mustThrow() throws Exception {
-        throw new Exception();
+    public void mustThrow() throws RuntimeException {
+        throw new RuntimeException();
     }
 }
